@@ -1,0 +1,95 @@
+body {
+  padding: 0 10%;
+}
+
+a { text-decoration: none; }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.header-links {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  /* background-color: darkgray; */
+  display: flex;
+  gap: 16px;
+  margin-bottom: 100px;
+}
+
+.hero img {
+  height: 100%;
+  width: 600px;
+}
+
+.hero-text * {
+  margin: 0;
+}
+
+.info {
+  margin-bottom: 100px;
+  /* background-color: red; */
+}
+.info h1 {
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 150px;
+  padding: 30px;
+  text-align: center;
+}
+
+.images {
+  /* border: purple 3px solid; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.quote {
+  /* background-color: purple; */
+  text-align: center;
+  padding: 100px 300px;
+}
+.quote-subtext {
+  text-align: right;
+}
+
+.registration-ad {
+  /* background-color: blue; */
+  margin: 100px 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  margin: 0;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+
